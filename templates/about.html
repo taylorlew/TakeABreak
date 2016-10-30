@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block title %}About You{% endblock %}
+
+{% block content %}
+  <h1>About You! :)</h1>
+
+<question>
+  <form action={{ url_for("renderPage1") }} method="POST">
+    <p> How has your day been? </p>
+    <input type="radio" name="mood" value="1"> Terrible. Nothing is going right. It's like Pooh without honey and now I'm Eeyore.<br>
+    <input type="radio" name="mood" value="2"> It's been okay.  Not too bad.  I could use more sleep though. <br>
+    <input type="radio" name="mood" value="3"> This is the best day ever!!!! Nothing can bring me down! <br>
+    <br>
+    <br>
+    <p> What time of the day is it? </p>
+    <input type="radio" name="day" value="1"> It's morning.  The sun is rising.  Time to start a new day!<br>
+    <input type="radio" name="day" value="2"> It's mid-morning or afternoon.  The day is looking good. <br>
+    <input type="radio" name="day" value="3"> It's nighttime.  I should be asleep.  But it's clear that I'm not. <br>
+    <br>
+    <br>
+    <p> What do you like doing in your free time? </p>
+    <input type="radio" name="like" value="1"> I'm a bookworm.  I love books!<br>
+    <input type="radio" name="like" value="2"> I'm lazy for the most part.  TV is the best!<br>
+    <input type="radio" name="like" value="3"> I'm athletic!  Can't hold me down!<br>
+    <input type="radio" name="like" value="4"> I'm a shopaholic.  Should I buy new shoes?  Oooo how about this cute shirt?<br>
+    <input type="radio" name="like" value="5"> I'm addicted to video games.  All I do is play Destiny, Rocket League, or Smash.<br>
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</question>
+{% endblock %}

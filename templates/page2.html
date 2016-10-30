@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}Question 2: How energetic are you right now?{% endblock %}
+
+{% block content %}
+  <h2>Question 2: How energetic are you right now?</h2>
+
+<question>
+ <form action={{ url_for("renderPage3") }} method="POST">
+  <input type="radio" name="energy" value="1"> I'm Ready! I'm Ready! I'm Ready!<br>
+  <input type="radio" name="energy" value="2"> Let's go! <br>
+  <input type="radio" name="energy" value="3"> Can't move. Must stay. <br>
+  <input type="submit" value="Submit">
+ </form> 
+</question>
+
+
+{% endblock %}
