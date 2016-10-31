@@ -285,14 +285,12 @@ class takeABreak():
 		#energy - mid
 		elif (int)(takeABreak.answers2) == 2:
 			for index in range(0, 17):
-				if (int)(index) == 0:
-					takeABreak.finalResults[0] += 3
-				elif (int)(index) == 1:
+				if (int)(index) == 1:
 					takeABreak.finalResults[1] += 3
 				elif (int)(index) == 2:
 					takeABreak.finalResults[2] += 2
 				elif (int)(index) == 7:
-					takeABreak.finalResults[7] += 3
+					takeABreak.finalResults[7] += 2
 				elif (int)(index) == 17:
 					takeABreak.finalResults[17] += 2
 
@@ -302,7 +300,7 @@ class takeABreak():
 				if (int)(index) == 1:
 					takeABreak.finalResults[1] += 4
 				elif (int)(index) == 7:
-					takeABreak.finalResults[7] += 3
+					takeABreak.finalResults[7] += 2
 				elif (int)(index) == 17:
 					takeABreak.finalResults[17] += 2
 
