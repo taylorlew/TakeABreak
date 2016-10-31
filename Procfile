@@ -1,1 +1,1 @@
-web: python bin/take-a-break.py ${PORT}
+web: gunicorn webapp:app -- log-file=-
