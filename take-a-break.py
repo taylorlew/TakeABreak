@@ -150,7 +150,9 @@ class takeABreak():
 		#about3 - bookworm	
 		if (int)(takeABreak.about3) == 1:
 			for index in range(0, 17):
-				if (int)(index) == 9:
+				if (int)(index) == 2:
+					takeABreak.finalResults[2] += 3
+				elif (int)(index) == 9:
 					takeABreak.finalResults[9] += 4
 				elif (int)(index) == 15:
 					takeABreak.finalResults[15] += 2
@@ -160,7 +162,11 @@ class takeABreak():
 		#lazy
 		elif (int)(takeABreak.about3) == 2:
 			for index in range(0, 17):
-				if (int)(index) == 13:
+				if (int)(index) == 1:
+					takeABreak.finalResults[1] += -3
+				elif (int)(index) == 7:
+					takeABreak.finalResults[7] += -3
+				elif (int)(index) == 13:
 					takeABreak.finalResults[13] += 4
 				elif (int)(index) == 17:
 					takeABreak.finalResults[17] += 2
@@ -171,7 +177,7 @@ class takeABreak():
 				if (int)(index) == 1:
 					takeABreak.finalResults[1] += 4
 				elif (int)(index) == 7:
-					takeABreak.finalResults[7] += 2
+					takeABreak.finalResults[7] += 3
 	
 		#shoppaholic
 		elif (int)(takeABreak.about3) == 4:
@@ -200,9 +206,9 @@ class takeABreak():
 				if (int)(index) == 0:
 					takeABreak.finalResults[0] += 2
 				elif (int)(index) == 2:
-					takeABreak.finalResults[2] += 3
+					takeABreak.finalResults[2] += 2
 				elif (int)(index) == 4:
-					takeABreak.finalResults[4] += 3
+					takeABreak.finalResults[4] += 2
 				elif (int)(index) == 7:
 					takeABreak.finalResults[7] += 3
 				elif (int)(index) == 8:
@@ -218,7 +224,9 @@ class takeABreak():
 				elif (int)(index) == 3:
 					takeABreak.finalResults[3] += 2
 				elif (int)(index) == 4:
-					takeABreak.finalResults[4] += 3
+					takeABreak.finalResults[4] += 2
+				elif (int)(index) == 7:
+					takeABreak.finalResults[7] += 2
 				elif (int)(index) == 8:
 					takeABreak.finalResults[8] += 2
 				elif (int)(index) == 10:
@@ -238,7 +246,7 @@ class takeABreak():
 				elif (int)(index) == 6:
 					takeABreak.finalResults[6] += 3
 				elif (int)(index) == 9:
-					takeABreak.finalResults[9] += 4
+					takeABreak.finalResults[9] += 3
 				elif (int)(index) == 10:
 					takeABreak.finalResults[10] += 2
 				elif (int)(index) == 11:
@@ -320,9 +328,7 @@ class takeABreak():
 				if (int)(index) == 1:
 					takeABreak.finalResults[1] += 2
 				elif (int)(index) == 4:
-					takeABreak.finalResults[4] += 3
-				elif (int)(index) == 7:
-					takeABreak.finalResults[7] += 2
+					takeABreak.finalResults[4] += 2
 				elif (int)(index) == 10:
 					takeABreak.finalResults[10] += 2
 
@@ -342,15 +348,15 @@ class takeABreak():
 				if (int)(index) == 0:
 					takeABreak.finalResults[0] += 5
 				elif (int)(index) == 9:
-					takeABreak.finalResults[9] += 2
+					takeABreak.finalResults[9] += 3
 	
 		#tea
 		elif (int)(takeABreak.answers4) == 2:
 			for index in range(0, 17):
 				if (int)(index) == 9:
-					takeABreak.finalResults[9] += 2
+					takeABreak.finalResults[9] += 3
 				elif (int)(index) == 14:
-					takeABreak.finalResults[14] += 5
+					takeABreak.finalResults[14] += 4
 
 		#smoothie
 		elif (int)(takeABreak.answers4) == 3:
@@ -371,7 +377,9 @@ class takeABreak():
 		#answers5- romantic
 		if (int)(takeABreak.answers5) == 1:
 			for index in range(0, 17):
-				if (int)(index) == 3:
+				if (int)(index) == 2:
+					takeABreak.finalResults[2] += 2
+				elif (int)(index) == 3:
 					takeABreak.finalResults[3] += 3
 				elif (int)(index) == 16:
 					takeABreak.finalResults[16] += 3
